@@ -18,10 +18,10 @@ public class example31_05 {
         }
 
         System.out.println();
-        int newArr [][] = new int[arr[0].length][arr.length];
+        int newArr[][] = new int[arr[0].length][arr.length];
 
-        for(int i=0; i<arr.length; i++) {
-            for(int j=0; j<arr[i].length; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 newArr[j][i] = arr[i][j];
             }
         }

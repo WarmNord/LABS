@@ -6,12 +6,12 @@ public class example31_11 {
 
 
         System.out.print("Введиде название месяца: ");
-        String month = input.nextLine();
+        String month = input.nextLine().toLowerCase();
 
         System.out.print("Введиде количество дней в месяце: ");
         int day = input.nextInt();
 
-        switch (month.toLowerCase()) {
+        switch (month) {
             case "январь":
 
             case "март":

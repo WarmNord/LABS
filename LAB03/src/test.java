@@ -8,7 +8,7 @@ public class test {
         Ivanov.Dolg = 9;
 
         Sidorov.Sdano = 3;
-        Sidorov.NeSdano =11;
+        Sidorov.NeSdano = 11;
         Sidorov.Dolg = 22;
 
         int per = Ivanov.Vsego() + Sidorov.Vsego() - 1;
@@ -20,7 +20,8 @@ public class test {
         public int Sdano;
         public int NeSdano;
         public int Dolg;
-        public  int Vsego(){
+
+        public int Vsego() {
             Sdano = Sdano + 1;
             NeSdano = NeSdano - 3;
             return Sdano + NeSdano + Dolg;

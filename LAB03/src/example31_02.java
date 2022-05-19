@@ -16,11 +16,11 @@ public class example31_02 {
             System.out.println("3");
         } else if (day_lower.equals("четверг")) {
             System.out.println("4");
-        }else if (day_lower.equals("пятница")) {
+        } else if (day_lower.equals("пятница")) {
             System.out.println("5");
-        }else if (day_lower.equals("суббота")) {
+        } else if (day_lower.equals("суббота")) {
             System.out.println("6");
-        }else if (day_lower.equals("воскресенье")) {
+        } else if (day_lower.equals("воскресенье")) {
             System.out.println("7");
         }
 

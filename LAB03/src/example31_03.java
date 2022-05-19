@@ -26,7 +26,7 @@ public class example31_03 {
         int i = 3;
 
         System.out.print(m0 + " " + m1 + " ");
-        while (i <= l){
+        while (i <= l) {
             m2 = m0 + m1;
             System.out.print(m2 + " ");
             m0 = m1;

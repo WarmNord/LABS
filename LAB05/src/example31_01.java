@@ -10,7 +10,7 @@ public class example31_01 {
         return code;
     }
 
-    public void description(){
+    public void description() {
         System.out.println("Символ: " + s + ", Код символа: " + getS());
     }
 

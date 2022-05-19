@@ -7,10 +7,10 @@ public class example31_04 {
         this.c = c;
     }
 
-    public example31_04(double d){
+    public example31_04(double d) {
         int num = (int) d;
         c = (char) d;
-        x =(int) Math.floor((d - num) * 100);
+        x = (int) Math.floor((d - num) * 100);
     }
 
 }

@@ -8,4 +8,9 @@ public class example31_02 {
         }
     }
 
+    public static void main(String[] args) {
+        example31_02 ex = new example31_02();
+        ex.pSymbols();
+    }
+
 }
